@@ -1,0 +1,41 @@
+Planing and Logic for Code
+----------------------------
+
+Planing for project:
+---------------------
+Prompt user how many characters they want and we collect users information
+  -use prompt to get information
+
+Use confirms to ask user if they want special/numeric/uppercase/ lowercase characters
+  -user confirm to get answers
+
+Check users password length greater than 8 and less then 128
+  -parseInt to convert string to a number.
+  -use conditional statement to check password length.
+  -need to check if user answer Nan or number -isNaN method/ function
+
+Check the four confirms:
+  -if user wants special characters.
+  -if user wants numeric characters.
+  -if user wants lowerCase characters.
+  -if user wants UpperCase chracters.
+
+Generate password
+
+Logic to be used below:
+--------------------------
+
+-check whether user wants the confirms special, upper, lower and confirm them with an if-statement
+
+
+have 4 arr containing all different types of characters
+prompt user for pwLength
+  parse string to num
+
+if pwLength is num && >8 and <128
+  confirm x 4 types of characters
+  store vals in vars
+
+create finalPoolArr
+
+if is uppercase, push uppercase chars in final poolArr (repeat for all types of chars)
