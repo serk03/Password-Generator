@@ -1,79 +1,126 @@
-# Module 5 Challenge: Password Generator
+# JavaScript: Password Generator
 
 ## Overview
+This JavaScript project was created in order to show my ability to work with JavaScript code, EDX provided the starter code to which i had to add and improve to make this into a functional Password Generator.
 
-This week’s challenge requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
+As my second JavaScript assignment i had to use what had been taught/ provided by EDX in the second week to code a Password Generator.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of Password Special Characters from the OWASP Foundation](https://www.owasp.org/index.php/Password_special_characters).
+Prior to adding any of my own code i was provided with the starter files.
 
-## Instructions
+The Password Generator which i was tasked to code is to be used to generate a unique password based on a set of inputs from the user. Before any password will be generated the user must answer the following:
 
-The following image shows the web application's appearance and functionality:
+- Length of password - The password length must be between 8 - 128 characters.
+- Numeric values - User can choose if they want numbers in the password.
+- Special chracters - User can choose if they want special characters in the password.
+- UpperCase chracters - User can choose if they want upperCase characters in the password.
+- LowerCase characters - User can choose if they want lowerCase chracters in the password.
+
+Once the following information has been gathered a password will be generated at displayed.
+
+<br>
+Some considerations beforehand and during the development. 
+
+- ***Clean and consistant Code*** -Clean code with useful naming conventions.
+- ***Code Reusablitiy*** - Provide code which is DRY, reusing existing code to form new functions.
+- ***Plan Code*** - Think about what will be required ahead of coding, plan what variables, methods and concepts to adopt in code before writting any code.
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-This can be see by in the "PseudoCode.txt file which is attached within this project.
+<br>
+<br>
+
+**Why was this project built**
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  1. To allow people/ employers the ability view my understanding of more advanced JavaScript.
+  <br>
+  1. To demonstrate my ability in using more difficult concepts in JavaScript however limited the teaching has been.
+  <br>
+  1. To gauge my understanding of JavaScript to identify areas for improvement for further projects in the future.
+<br>
+<br>
+  **The problems that where solved in this project**
+<br>
+ 1. The ability to understand and use JavaScript, working with new concepts within the JavaScript language.<br><br>
+ 2. Using functions, Scope, Hoisiting, variables, arrays, if statements, if-else statements, for-loops and array methods to obtain and extraction information to provide a useful output.
+ 3. To take information from arrays and manlipulate them with methods to output information that will displayed as a unique genrated password.
+   
+<br>
+
+**What did you learn?**<br>
+  
+  1. I leant how to declare variables, setup arrays, use loops, if-statements, scope, hoisting, functions and how i can combine these to output useful information.
+  <br><br>
+  1. Using Pseudocode to help plan and break down a task into smaller segments.
+  <br><br>
+  1. Pair programming and how working with another developer can help gain a new prospective on tasks/ methods.
+
+## Table of Contents
+
+- [JavaScript: Password Generator](#javascript-password-generator)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Live Site](#live-site)
+  - [JavaScript Password Generator Project and Source code on Github](#javascript-password-generator-project-and-source-code-on-github)
+  - [Usage](#usage)
+
+## Installation
+
+**Using Git to create a copy/ clone of website.**
+
+1. Open either Git Bash (Windows) or Terminal (MacOS) and the following commands to create a copy of the website.
+   
+2. Create a folder/ directory to store website folders/ files within it use the following command<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -
+ ` mkdir "folder name"`<br>
+
+1.  Navgate into folder using following command.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -
+  `cd "folder name"`<br>
+
+1. To make a copy/ clone of the website inside of the folder/ directory use the following command<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -
+  `git clone git@github.com:serk03/Password-Generator.git`
+  
+1. Navigate inside of your folder/ directory that you copied using the following commands.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -
+  `cd "folder/ directory name"`
+
+1. To view the folder/ files from the website inside a VS Code using the following command.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -
+  `code .`
+
+1. Open the files you would like to view using the following command.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  -index.html - right and select open with default browser, will open the website in your default browser.
+  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ -Double click on either index.html/ index.js to view code that has been used to create website structure (index.html) and javascript (index.js).
+
+<br>
+
+## Live Site
+- To view the live/ active website please click on the following link: [View Live JavaScript Password Generator Project](https://serk03.github.io/Console-Finances/)
+
+## JavaScript Password Generator Project and Source code on Github
+- To view the repository and its source code please visit Github by clicking on the following link: [View Github Repository](git@github.com:serk03/Password-Generator.git)
+
+
+## Usage
+
+Provide instructions and examples for use. Include screenshots as needed.
+
+**Console Out**
+  - Doubled click on index.html file from the cloned repository.
+  - Once the browser has opened up right click on the page and navigate to the "Inspect" option, this will open the "Inspect" console.
+  - Click on the "Console" tab  from the "Inspect" menu, then you will be able to see the financial Analysis output.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+**VS CODE**
+- To view the source code of the JavaScript open the cloned repo folder in your choosen code editor and doubled click on the index.js from the JS folder.
 
 ![password generator demo](./assets/05-javascript-challenge-demo.png)
 
 
-* Generate a password when the button is clicked
-  * Present a series of prompts for password criteria
-    * Length of password
-      * At least 8 characters but no more than 128.
-    * Character types
-      * Lowercase
-      * Uppercase
-      * Numeric
-      * Special characters ($@%&*, etc)
-  * Code should validate for each input and at least one character type should be selected
-  * Once prompts are answered then the password should be generated and displayed in an alert or written to the page
-
-## Grading Requirements
-
-This challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * The challenge should not produce any errors in the console when you inspect it using Chrome DevTools.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
 
 
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
