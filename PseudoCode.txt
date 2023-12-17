@@ -1,7 +1,7 @@
-Planing and Logic for Code
+Planning and Logic for Code
 ----------------------------
 
-Planing for project:
+Planning for project:
 ---------------------
 Prompt user how many characters they want and we collect users information
   -use prompt to get information
