@@ -150,10 +150,12 @@ function generatePassword() {
     finalCharPool.push.apply(finalCharPool, lowerCasedCharacters);
   }
 
+  var generatePassword = "";
   for (let i = 0; i < passwordInfo.passwordLength; i++) {
     var randomChar = getRandom(finalCharPool);
-    console.log(randomChar);
+    generatePassword += randomChar;
   }
+  return generatePassword;
 }
 
 // Get references to the #generate element
@@ -169,7 +171,3 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-//---------------------------------------------------------
-// getPasswordOptions();
-// getRandom();
