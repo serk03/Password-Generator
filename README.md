@@ -63,6 +63,8 @@ Some considerations beforehand and during the development.
   - [JavaScript Password Generator Project and Source code on Github](#javascript-password-generator-project-and-source-code-on-github)
   - [Usage](#usage)
     - [Instructions on how to use Password Generator:](#instructions-on-how-to-use-password-generator)
+  - [Credits](#credits)
+  - [License](#license)
 
 ## Installation
 
@@ -133,6 +135,16 @@ Some considerations beforehand and during the development.
 **VS CODE**
 - To view the source code of the JavaScript open the cloned repo folder in your choosen code editor and doubled click on the index.js from the JS folder.
 
+## Credits
+
+Author of Project - Serkan Onal
+
+Assistance/ Collaboration and pair programming on this project was provided by Tudor Tocan during tutoring session.
+
+
+## License
+
+No Licenses where used or applied to this website.
 
 
 
