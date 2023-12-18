@@ -96,7 +96,9 @@ function getPasswordOptions() {
   var passwordLength = parseInt(passwordLength);
 
   if (isNaN(passwordLength) || passwordLength < 8 || passwordLength >= 128) {
-    alert("Make sure the pw is between 8 and 128 chars");
+    alert(
+      "Make sure the password is between 8 and 128 characters \nMake sure password is a numerical value"
+    );
     return;
   }
 

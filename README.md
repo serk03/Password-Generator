@@ -62,6 +62,7 @@ Some considerations beforehand and during the development.
   - [Live Site](#live-site)
   - [JavaScript Password Generator Project and Source code on Github](#javascript-password-generator-project-and-source-code-on-github)
   - [Usage](#usage)
+    - [Instructions on how to use Password Generator:](#instructions-on-how-to-use-password-generator)
 
 ## Installation
 
@@ -99,7 +100,7 @@ Some considerations beforehand and during the development.
 <br>
 
 ## Live Site
-- To view the live/ active website please click on the following link: [View Live JavaScript Password Generator Project](https://serk03.github.io/Console-Finances/)
+- To view the live/ active website please click on the following link: [View Live JavaScript Password Generator Project](https://serk03.github.io/Password-Generator/)
 
 ## JavaScript Password Generator Project and Source code on Github
 - To view the repository and its source code please visit Github by clicking on the following link: [View Github Repository](git@github.com:serk03/Password-Generator.git)
@@ -107,19 +108,32 @@ Some considerations beforehand and during the development.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+### Instructions on how to use Password Generator:
 
-**Console Out**
-  - Doubled click on index.html file from the cloned repository.
-  - Once the browser has opened up right click on the page and navigate to the "Inspect" option, this will open the "Inspect" console.
-  - Click on the "Console" tab  from the "Inspect" menu, then you will be able to see the financial Analysis output.
+**Instructions on Active/ Live Site**
+  - Click on ***"Generate Password"*** button.
+  - ***Password Length***- Choose the length of the password you would like, password length must be greater than 8 and cannot be more than 128.
+   ***Numerical values on can be used no text values***
+  - ***Special Character*** - If you would like special characters in the password click on "OK" otherwise click "Cancel"
+  - ***Numerical Character*** - If you would like numerical characters in the password click on "OK" otherwise click "Cancel"
+  - ***UpperCase Character*** - If you would like Uppercase characters in the password click on "OK" otherwise click "Cancel"
+  - ***LowerCase Character*** - If you would like lowercase characters in the password click on "OK" otherwise click "Cancel"
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+![password generator demo](./assets/05-javascript-challenge-demo.png)
+![password generator demo](./assets/Password-Length-2.png)
+![password generator demo](./assets/Password-Length-1.png)
+![password generator demo](./assets/Special-characters.png)
+![password generator demo](./assets/Numerical-characters.png)
+![password generator demo](./assets/Uppercase-characters.png)
+![password generator demo](./assets/Lowercase-characters.png)
+![password generator demo](./assets/Generated-Password.png)
 
 **VS CODE**
 - To view the source code of the JavaScript open the cloned repo folder in your choosen code editor and doubled click on the index.js from the JS folder.
 
-![password generator demo](./assets/05-javascript-challenge-demo.png)
+
 
 
 
