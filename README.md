@@ -9,11 +9,11 @@ Prior to adding any of my own code i was provided with the starter files.
 
 The Password Generator which i was tasked to code is to be used to generate a unique password based on a set of inputs from the user. Before any password will be generated the user must answer the following:
 
-- Length of password - The password length must be between 8 - 128 characters.
-- Numeric values - User can choose if they want numbers in the password.
-- Special chracters - User can choose if they want special characters in the password.
-- UpperCase chracters - User can choose if they want upperCase characters in the password.
-- LowerCase characters - User can choose if they want lowerCase chracters in the password.
+- ***Length of password*** - The password length must be between 8 - 128 characters.
+- ***Numeric values*** - User can choose if they want numbers in the password.
+- ***Special chracters*** - User can choose if they want special characters in the password.
+- ***UpperCase chracters*** - User can choose if they want upperCase characters in the password.
+- ***LowerCase characters*** - User can choose if they want lowerCase chracters in the password.
 
 Once the following information has been gathered a password will be generated at displayed.
 
@@ -123,14 +123,14 @@ Some considerations beforehand and during the development.
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 
-![password generator demo](./assets/05-javascript-challenge-demo.png)
-![password generator demo](./assets/Password-Length-2.png)
-![password generator demo](./assets/Password-Length-1.png)
-![password generator demo](./assets/Special-characters.png)
-![password generator demo](./assets/Numerical-characters.png)
-![password generator demo](./assets/Uppercase-characters.png)
-![password generator demo](./assets/Lowercase-characters.png)
-![password generator demo](./assets/Generated-Password.png)
+![password generator demo](./assets/images/05-javascript-challenge-demo.png)
+![password generator demo](./assets/images/Password-Length-2.png)
+![password generator demo](./assets/images/Password-Length-1.png)
+![password generator demo](./assets/images/Special-characters.png)
+![password generator demo](./assets/images/Numerical-characters.png)
+![password generator demo](./assets/images/Uppercase-characters.png)
+![password generator demo](./assets/images/Lowercase-characters.png)
+![password generator demo](./assets/images/Generated-Password.png)
 
 **VS CODE**
 - To view the source code of the JavaScript open the cloned repo folder in your choosen code editor and doubled click on the index.js from the JS folder.
